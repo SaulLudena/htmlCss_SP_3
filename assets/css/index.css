@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    max-width: 1700px;
+}
+nav{
+    display: flex;
+    padding: 10px 20px 120px 20px;
+
+}
+nav a{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.mainContent{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    text-align:left;
+}
+.mainContent .content h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.mainContent .content p{
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+.mainContent .content a{
+    padding: 10px 20px;
+    font-size: 21px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.mainContent .content a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.mainContent .content .search{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.mainContent .content .search input{
+    border-radius: 0;
+    outline: none;
+    border: 0px;
+    padding: 5px 10px;
+    width: 320px;
+    height: 40px;
+
+}
+.mainContent .content .search button{
+    border: 0;
+    padding: 5px 10px;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.mainContent .content img{
+    width: 420px;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerContent{
+    padding: 40px;
+}
+.footerContent p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}   
+.footerContent .links{
+    list-style: none;
+}
+
+
+.footerContent .links i{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.footerContent .links i:hover{
+    background-color: rgb(255, 196, 0);
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:880px){
+    .container{
+        margin: auto;
+        width: 100%;
+        max-width: 1700px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px 60px 20px;
+
+    }
+    nav a{
+        padding: 10px 30px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .mainContent{
+        padding: 10px;
+        display: block;
+        justify-content: space-around;
+        height: 300px;
+        text-align: center;
+    }
+    .mainContent .content h1{
+        margin-bottom: 20px;
+    }
+    .mainContent .content p{
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+    .mainContent .content a{
+        padding: 10px 10px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        text-decoration: none;
+    }
+    .mainContent .content .search{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .mainContent .content .search input{
+        border-radius: 0;
+        outline: none;
+        border: 0px;
+        padding: 5px 5px;
+        width: 120px;
+        height: 20px;
+    }
+    .mainContent .content .search button{
+        border: 0;
+        padding: 5px 10px;
+        outline: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .mainContent .content img{
+        display: none;
+    }
+
+    footer{
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footerContent{
+        padding: 40px;
+    }
+    .footerContent p{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }   
+    .footerContent .links{
+        list-style: none;
+    }
+    .footerContent .links i{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+
