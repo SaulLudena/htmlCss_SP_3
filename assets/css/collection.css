@@ -166,7 +166,7 @@ footer{
         padding: 140px 60px;
         color: white;
         margin: auto;
-        background-image: url('/assets/img/portada.jpg');
+        background-image: url('../img/portada.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 0px;
